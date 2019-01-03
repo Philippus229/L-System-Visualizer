@@ -42,7 +42,7 @@ class turtle:
 
     def move(self, dist):
         new_pos = [self.position[0]+cos_deg(self.rotation)*dist, self.position[1]+sin_deg(self.rotation)*dist]
-        pygame.draw.lines(screen, (255, 255, 255), self.position, new_pos)
+        pygame.draw.line(screen, (255, 255, 255), self.position, new_pos)
         self.position = new_pos
 
 def next_gen(s, g):
