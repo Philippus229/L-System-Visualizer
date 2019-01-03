@@ -61,11 +61,11 @@ def draw_current_gen():
     tmp_turtle = turtle(startpos, startrot)
     for char in sentence:
         if char in fwd_chars:
-            tmp_turtle.move(tmp_turtle, length)
+            tmp_turtle.move(length)
         elif char == left_at:
-            tmp_turtle.rotate(tmp_turtle, -angle)
+            tmp_turtle.rotate(-angle)
         elif char == right_at:
-            tmp_turtle.rotate(tmp_turtle, angle)
+            tmp_turtle.rotate(angle)
         elif char == '[':
             savedata = [tmp_turtle.position, tmp_turtle.rotation]
         elif char == ']':
