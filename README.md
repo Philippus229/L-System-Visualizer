@@ -1,5 +1,5 @@
 # L-System Visualizer
-A small python script for visualizing L-Systems
+A small python script for visualizing L-systems
 
 ## Usage
 Run the python script and enter the values it asks for.
